@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
+
+
 export const Wrapper = styled.div`
-  padding: 20vh 10rem;
+  padding: 25vh 10rem;
 `;
 
 export const Card = styled.div`

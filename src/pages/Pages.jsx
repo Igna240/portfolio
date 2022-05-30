@@ -9,7 +9,7 @@ function Pages() {
    <Routes>
       <Route path="/" element={<Aboutme/>}/>
       <Route path="/skills" element={<Skills/>}/>
-      <Route path="/portfolio" element={<Portfolio/>}/>
+      <Route path="/ib-portfolio" element={<Portfolio/>}/>
     </Routes>
   )
 }

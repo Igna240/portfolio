@@ -4,10 +4,11 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 export const Wrapper = styled.div`
   padding: 20vh 11rem;
+  
 `;
 
 export const StyledSplide = styled(Splide)`
-    
+    padding: 1rem 0;
 `; 
 
 export const StyledSplideSlide = styled(SplideSlide)`

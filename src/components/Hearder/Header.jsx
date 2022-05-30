@@ -17,7 +17,7 @@ function Header() {
             <StyledLink to="/skills">Skills</StyledLink>
           </li>
           <li>
-            <StyledLink to="/portfolio">Portfolio</StyledLink>
+            <StyledLink to="/ib-portfolio">Portfolio</StyledLink>
           </li>
         </NavBarList>
       </NavBar>

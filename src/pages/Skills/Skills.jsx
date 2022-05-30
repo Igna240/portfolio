@@ -30,6 +30,40 @@ function Skills() {
           );
         })}
       </StyledSplide>
+      <StyledSplide options={{
+        perPage:4,
+        gap: '0rem',
+        arrows: false,
+        pagination: false
+        
+      }}>
+        {skills.map((skill) => {
+          return (
+            <StyledSplideSlide key={skill.id}>
+              <Card>
+                <p>{skill.title}</p>
+              </Card>
+            </StyledSplideSlide>
+          );
+        })}
+      </StyledSplide>
+      <StyledSplide options={{
+        perPage:4,
+        gap: '0rem',
+        arrows: false,
+        pagination: false
+        
+      }}>
+        {skills.map((skill) => {
+          return (
+            <StyledSplideSlide key={skill.id}>
+              <Card>
+                <p>{skill.title}</p>
+              </Card>
+            </StyledSplideSlide>
+          );
+        })}
+      </StyledSplide>
 
     </Wrapper>
   )
