@@ -16,5 +16,9 @@ export const StyledFooter = styled.footer`
 `;
 
 export const Logo = styled.div`
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 1rem;
+    display: flex;
+    div{
+        padding: 0 0.5rem;
+    }
 `;
