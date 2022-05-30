@@ -6,8 +6,7 @@ function Footer() {
   return (
     <StyledFooter>
       <Logo>Page disigned and developed by Ignacio Brezan</Logo>
-      <div>
-      
+      <div>     
       <Logo>
         <p>Contact to me... </p>
         <div>
