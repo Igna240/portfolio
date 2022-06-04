@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+const size = {
+    tablet: '768px'
+}
+
 export const AboutMeContainer = styled.div`
     
 `;
@@ -9,6 +13,10 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
+    @media (max-width: ${size.tablet} ){
+    flex-direction: column;
+  }
+
 `;
 
 export const ImageContainer = styled.div`

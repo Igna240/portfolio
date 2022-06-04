@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+const size = {
+  tablet: '768px'
+}
 
 export const StyledFooter = styled.footer`
   color: var(--letters);
@@ -12,6 +15,9 @@ export const StyledFooter = styled.footer`
   background-color: var(--secundary);
   opacity: 0.7;
   bottom: 0;
+  @media (max-width: ${size.tablet} ){
+    flex-direction: column-reverse;
+  }
 
 `;
 

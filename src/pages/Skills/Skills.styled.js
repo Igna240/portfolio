@@ -1,10 +1,18 @@
 import styled from "styled-components";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
+const size = {
+  tablet: '768px'
+}
 
 export const Wrapper = styled.div`
   padding: 20vh 11rem;
-  
+  h2{
+    color: var(--letters);
+  }
+  @media (max-width: ${size.tablet} ){
+    padding: 20vh 1rem;
+  }
 `;
 
 export const StyledSplide = styled(Splide)`

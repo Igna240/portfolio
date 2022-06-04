@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { mePortfolio } from "../../DATA/portfolio";
-import { Wrapper, Card } from "./Portfolio.styled";
+import { Wrapper, Card,Styled} from "./Portfolio.styled";
 
 function Portfolio() {
   const [portfolio, setPortfolio] = useState([]);

@@ -8,7 +8,7 @@ function Footer() {
       <Logo>Page disigned and developed by Ignacio Brezan</Logo>
       <div>     
       <Logo>
-        <p>Contact to me... </p>
+        <p>Contact to me... brezanignacio@gmail.com </p>
         <div>
           <FaGithub />
         </div>

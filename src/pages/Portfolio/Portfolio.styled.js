@@ -1,9 +1,22 @@
 import styled from "styled-components";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/splide/dist/css/splide.min.css";
 
-
+const size = {
+  tablet: '768px'
+}
 
 export const Wrapper = styled.div`
   padding: 25vh 10rem;
+
+  @media (max-width: ${size.tablet} ){
+    padding: 30vh 1rem;
+  }
+`;
+
+export const StyledSplide = styled(Splide)`
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Card = styled.div`
@@ -11,6 +24,7 @@ export const Card = styled.div`
   border-radius: 1rem;
   overflow: hidden;
   position: relative;
+  
   p {
     position: absolute;
     z-index: 10;
@@ -34,5 +48,8 @@ export const Card = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  @media (max-width: ${size.tablet} ){
+    min-height: 13rem;
   }
 `
