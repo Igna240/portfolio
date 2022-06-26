@@ -20,20 +20,23 @@ export const NavBar = styled.nav`
 export const NavBarInner = styled.div`
 display: flex;
 justify-content: space-between;
+align-items: center;
 `;
 
 export const Logo = styled.div`
-    padding: 1rem;
-    @media (max-width: ${size.tablet} ){
     font-size: 2rem;
+    padding: 0.5rem 0  0 1rem;
+    @media (max-width: ${size.tablet} ){
+    font-size: 3rem;
+    padding: 0.5rem 0 0 0.5rem;
   }
 
 `;
 
 export const NavBarList = styled.ul`
     display: flex;
-    padding-right: 1em;
-    margin: 0;
+    padding-right: 1rem;
+    margin: 0; 
 
     li{
         display: flex;
@@ -84,7 +87,7 @@ export const StyledButton = styled.button`
   display: none;
   background-color: transparent;
   border: none;
-  padding: 0;
+  padding: 0.5rem;
   margin: 0;
   color: var(--letters);
   font-size: 3rem;
@@ -92,8 +95,8 @@ export const StyledButton = styled.button`
   @media (max-width: ${size.tablet} ){
     display: block;
     position: absolute;
-    top:0.5rem;
-    right: 0.5rem;
+    top:0;
+    right: 0;
   }
 `;
 

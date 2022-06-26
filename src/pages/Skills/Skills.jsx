@@ -22,8 +22,13 @@ function Skills() {
       <StyledSplide options={{
         perPage:4,
         gap: '0rem',
-        arrows: false,
-        pagination: false
+        arrows: true,
+        pagination: false,
+        breakpoints:{
+          768:{
+            perPage:2
+          }
+        }
         
       }}>
         {theGeneralSkills.map((skill) => {
@@ -42,8 +47,13 @@ function Skills() {
       <StyledSplide options={{
         perPage:4,
         gap: '0rem',
-        arrows: false,
-        pagination: false
+        arrows: true,
+        pagination: false,
+        breakpoints:{
+          768:{
+            perPage:2
+          }
+        }
         
       }}>
         {theBackendSkills.map((skill) => {
@@ -62,8 +72,13 @@ function Skills() {
       <StyledSplide options={{
         perPage:4,
         gap: '0rem',
-        arrows: false,
-        pagination: false
+        arrows: true,
+        pagination: false,
+        breakpoints:{
+          768:{
+            perPage:2
+          }
+        }
         
       }}>
         {theFrontendSkills.map((skill) => {

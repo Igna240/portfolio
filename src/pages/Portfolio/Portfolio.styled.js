@@ -8,9 +8,10 @@ const size = {
 
 export const Wrapper = styled.div`
   padding: 25vh 10rem;
+  height: 100vh;
 
   @media (max-width: ${size.tablet} ){
-    padding: 30vh 1rem;
+    padding: 35vh 1rem 0 1rem;
   }
 `;
 
@@ -23,11 +24,10 @@ export const Card = styled.div`
   min-height: 16rem;
   border-radius: 1rem;
   overflow: hidden;
-  position: relative;
-  
-  p {
+  position: relative;     
+    h4{
+    z-index: 5;
     position: absolute;
-    z-index: 10;
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, 0%);
@@ -36,11 +36,22 @@ export const Card = styled.div`
     text-align: center;
     font-weight: 600;
     font-size: 2rem;
-    height: 40%;
     display: flex;
+    font-weight: 600;
+    color: var(--letters);
+    background-color: var(--secundary);
+    opacity: 0.9;
+    width: 100%;
     justify-content: center;
     align-items: center;
-  }
+    bottom: 0;
+    height: 3rem;
+    
+    }
+    p{
+    }
+    
+  
   img {
     border-radius: 1rem;
     position: absolute;
@@ -52,4 +63,5 @@ export const Card = styled.div`
   @media (max-width: ${size.tablet} ){
     min-height: 13rem;
   }
+  
 `

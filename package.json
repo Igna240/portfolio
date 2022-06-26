@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Igna240.github.io/ib-portfolio",
+  "homepage": "https://igna240.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",
+    "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

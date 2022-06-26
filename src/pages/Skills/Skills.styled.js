@@ -7,11 +7,16 @@ const size = {
 
 export const Wrapper = styled.div`
   padding: 20vh 11rem;
+  height: 100vh;
   h2{
     color: var(--letters);
+    padding: 0 0 0 0.5rem;
   }
   @media (max-width: ${size.tablet} ){
-    padding: 20vh 1rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 `;
 
@@ -27,6 +32,7 @@ export const Card = styled.div`
   overflow: hidden;
   position: relative;
   background-color: rgba(var(--primary), 0.3);
+  
   p {
     position: absolute;
     z-index: 10;
@@ -34,7 +40,6 @@ export const Card = styled.div`
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, 0%);
-    width: 80%;
     color: var(--letters);
     text-align: center;
     font-weight: 600;
@@ -43,13 +48,13 @@ export const Card = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
   }
-  img {
-    border-radius: 1rem;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  
+  @media (max-width: ${size.tablet} ){
+    p{
+      font-size: 1.7rem;
+    }
   }
+
 `

@@ -16,16 +16,38 @@ export const generalSkills = [
     },
     {
         id: 4,
-        title: 'SOFT SKILLS',
+        title: 'DOCKER',
         description: 'lo use un par de veces jajaja'       
     },
     {
         id: 5,
-        title: 'PIPERLINE',
+        title: 'SOFT SKILLS',
         description: 'lo use un par de veces jajaja'       
-    }
+    },
+    {
+        id: 6,
+        title: 'QA',
+        description: 'lo use un par de veces jajaja'     
+    },
+    {
+        id: 7,
+        title: 'SEO',
+        description: 'lo use'
+    },
+    {
+        id: 8,
+        title: 'PHOTOSHOP',
+        description: 'lo use'
+    },{
+        id: 9,
+        title: 'UX/UI',
+        description: 'lo use'
+    },{
+        id: 10,
+        title: 'DEVOPS',
+        description: 'lo use'
+    },
 ]
-
 export const backendSkills = [
     {
         id:1,
@@ -61,22 +83,22 @@ export const backendSkills = [
 export const frontendSkills = [
     {
         id:1,
-        title:'HTML',
-        description:'jfsldkj afls kaj'
-    },
-    {
-        id:2,
-        title:'CSS',
-        description:'jfsldkj afls kaj'
-    },
-    {
-        id:3,
         title:'JAVASCRIPT',
         description:'jfsldkj afls kaj'
     },
     {
-        id:4,
+        id:2,
         title:'REACT',
+        description:'jfsldkj afls kaj'
+    },
+    {
+        id:3,
+        title:'HTML',
+        description:'jfsldkj afls kaj'
+    },
+    {
+        id:4,
+        title:'CSS',
         description:'jfsldkj afls kaj'
     },
     {

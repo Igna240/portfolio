@@ -10,7 +10,7 @@ import {
   StyledLinkExtended
 } from "./Header.styled";
 import { FaCode } from "react-icons/fa";
-import { HiMenu } from "react-icons/hi";
+import { HiCode, HiMenu, HiOutlineX} from "react-icons/hi";
 
 function Header() {
   const [extendNavbar, setExtendNavbar] = useState(false);
@@ -21,7 +21,7 @@ function Header() {
         <NavBarInner>
 
         <Logo>
-          <FaCode />
+          <HiCode />
         </Logo>
         <NavBarList>
           <li>
@@ -31,7 +31,7 @@ function Header() {
             <StyledLink to="/skills">Skills</StyledLink>
           </li>
           <li>
-            <StyledLink to="/ib-portfolio">Portfolio</StyledLink>
+            <StyledLink to="/portfolio">Portfolio</StyledLink>
           </li>
         </NavBarList>
         <StyledButton
@@ -39,7 +39,7 @@ function Header() {
             setExtendNavbar((curt) => !curt);
           }}
           >
-          {extendNavbar ? <>&#10005;</> : <>&#8801;</>}
+          {extendNavbar ? <HiOutlineX/> : <HiMenu/>}
         </StyledButton>
         </NavBarInner>
         {extendNavbar && (
@@ -51,7 +51,7 @@ function Header() {
               <StyledLinkExtended onClick={() => {setExtendNavbar((curt) => !curt);}} to="/skills">Skills</StyledLinkExtended>
             </li>
             <li>
-              <StyledLinkExtended onClick={() => {setExtendNavbar((curt) => !curt);}} to="/ib-portfolio">Portfolio</StyledLinkExtended>
+              <StyledLinkExtended onClick={() => {setExtendNavbar((curt) => !curt);}} to="/portfolio">Portfolio</StyledLinkExtended>
             </li>
           </NavBarListExtended>
         )}
